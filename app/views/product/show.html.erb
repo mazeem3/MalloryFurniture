@@ -1,0 +1,32 @@
+<h1 class= "page_title">
+  <%= link_to root_path, class: "title_text" do%>
+  Mallory Furniture
+  <% end%>
+</h1>
+<div class="container-fluid yield">
+<div class="row">
+    <div class="col-xs-8">
+        <div class="image thumbnail">
+            <%= image_tag @product.img_file, class: "large"%>
+        </div>
+    </div>
+    <div class="col-xs-4 info">
+        <h1 class="name"><%= @product.item %></h1>
+        <h3 class="price">Price: <%= @product.price %></h3>
+        <h3 class ="sale"><%= @product.clearance %></h3>
+        <h3 class="description">Description</h3>
+          <%= @product.description %>
+        <br>
+        <h3 class="dimensions">Dimensions</h3>
+        <p>
+          Length: <%= @product.dimension_l %>
+        </p>
+        <p>
+          Width: <%= @product.dimension_w %>
+        </p>
+        <p>
+          Height: <%= @product.dimension_h %>
+        </p>
+    </div>
+</div>
+</div>

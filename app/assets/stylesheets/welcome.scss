@@ -1,0 +1,83 @@
+.btn-primary{
+  width: 100px;
+}
+.caption{
+  color: #C0C0C0;
+}
+.page_title{
+  background-color: #2C3E4F;
+  color: #ffffff;
+  text-align: center;
+
+
+  .title_text {
+    height: 45px;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 28px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+}
+
+.jumbo {
+  height: 100vh;
+  border: 1px solid #000000;
+  background: image_url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  .littlebox {
+    color: #ffffff;
+    float: right;
+    margin-top: 16%;
+    margin-right: 50px;
+    background: none;
+    padding: 5px;
+
+    small{
+      color: #bdc3c7;
+
+    }
+
+    .checkout_products {
+      display: block;
+      text-align: center;
+      background-color: #ecf0f1;
+      color: #2C3E4F;
+      font-weight: bold;
+      font-size: 18px;
+      border-color: transparent;
+      &:hover{
+        background-color: darken(#ecf0f1, 5%);
+
+      }
+    }
+  }
+}
+
+.sale {
+    color: red;
+
+}
+
+h3 {
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+  .name{
+    background-color: #F2C40D;
+  }
+  .price{
+    background-color: #BFF6EB;
+  }
+  .description, .dimensions{
+    background-color: #EEEEEE;
+  }
+
+.large{
+  max-height: 70vh;}
